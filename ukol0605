@@ -1,0 +1,14 @@
+cisla = [1,2,3,4,5,6]
+
+hleddane = int(input("zadejte číslo, které chcete v poli najít.: "))
+
+nalezeno = False
+
+for i in range(len(cisla)):
+    if cisla[i] == hledane:
+        print(f"nasla sem tuto hodnotu na pozici {i}")
+        nalezeno = True
+        break
+
+if not nalezeno:
+    print("zadana hodnota tu nenu")
