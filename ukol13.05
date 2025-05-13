@@ -1,45 +1,72 @@
+#ukol 1
 ovoce = ["jablko", "banán", "pomeranč", "kiwi", "hruška"]
 print(ovoce[0])   # "jablko"
 print(ovoce[2])   # "pomeranč"
 print(ovoce[-1])  # "hruška"
 
-
+#ukol 2
 jidla = ["pizza", "sushi", "těstoviny"]
 print(jidla)
 
+#ukol 3
 znamky = [1, 2, 1, 3, 2]
 print(znamky)
 
-zvirata = ["pes", "kočka", "králík", "papoušek"]
+#ukol 4
+zvirata = ["pes", "kočka", "králík", "zelva"]
 print(zvirata[1])   # "kočka"
-print(zvirata[-1])  # "papoušek"
+print(zvirata[-1])  # "zelva"
 
+#ukol 5
 cisla = []
 cisla.append(5)
 cisla.append(12)
 cisla.append(3)
 print(cisla)
 
+#ukol 6
 filmy = ["Matrix", "Titanic", "Shrek"]
 for film in filmy:
    print(film)
 
+#ukol 7
 cisla = [4, 7, 10]
 cisla[1] = 999
 print(cisla)
 
+#ukol 8
 cisla = [1, 2, 3, 4, 5]
 soucet = sum(cisla)
 print("Součet:", soucet)
 
+#ukol 9
 pole = [10, 20, 30]
 print("Velikost pole:", len(pole))
 
+#ukol 10
 znamky = [1, 2, 1, 3, 2]
 prumer = sum(znamky) / len(znamky)
 print("Průměr známek:", prumer)
 
-ovoce = ["jablko", "banán", "hruška"]
+#ukol 11
+ovoce = ["citron", "banán", "hruška"]
 for o in ovoce:
    if o == "banán":
        print("Banán tam je!")
+
+#ukol 12
+cisla = [11, 15, 9, 22, 7, 13]
+pocet_vetsich_nez_10 = 0
+for cislo in cisla:
+   if cislo > 10:
+       pocet_vetsich_nez_10 += 1
+print("Počet čísel větších než 10 je:", pocet_vetsich_nez_10)
+
+#ukol 13
+znamky = []
+pocet = int(input("Kolik známek chceš zadat? "))
+for i in range(pocet):
+   znamka = float(input(f"Zadej {i+1}. známku: "))
+   znamky.append(znamka)
+prumer = sum(znamky) / len(znamky)
+print("Průměr známek je:", prumer)
