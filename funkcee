@@ -1,0 +1,35 @@
+#ukol 2
+def pozdrav_jmeno(jmeno):
+   print("Ahoj " + jmeno)
+   pozdrav_jmeno("jmeno")
+
+
+#ukol 3
+   def prumer_ze_znamek():
+   znamky = [1, 2, 1, 3, 2]               
+   soucet = sum(znamky)                  
+   pocet = len(znamky)                   
+   prumer = soucet / pocet               
+   print("Průměr známek je:", prumer)    
+   
+   prumer_ze_znamek()
+
+
+#ukool 4
+def vypis_ahoj_petkrat():
+   for i in range(5):       
+       print("Ahoj")
+vypis_ahoj_petkrat()
+
+#bonus
+def zvirata_do_pole():
+   pole = []                        
+   pole.append("pes")                 
+   pole.append("kočka")        
+   pole.append("králík")        
+   print("Zvířata v poli:")
+   for zvire in pole:              
+       print(zvire)            
+   print("Počet zvířat v poli:", len(pole))  
+
+zvirata_do_pole()
