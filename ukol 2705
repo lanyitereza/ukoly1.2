@@ -1,0 +1,30 @@
+#ukol 1
+def nasobek(cislo):
+    vysledek = cislo * 5
+    print(vysledek)
+nasobek(4)
+
+# ukol 2
+def vypis_prvni_prvek(pole):
+    if len(pole) > 0:
+        print(pole[0])
+    else:
+        print("pole je prázdné.")
+
+vypis_prvni_prvek([5, 10, 15])
+
+#ukol 3
+pocet = int(input("zadej číslo pro proměnnou počet: "))
+
+def secti_cisla(pocet, cislo):
+    soucet = pocet + cislo
+    print(f"součet hodnot {pocet} a {cislo} je: {soucet}")
+
+secti_cisla(pocet, 10)
+
+#ukol 4
+jmeno = input("zadjte jmeno postavy")
+popis = input("popiš postavu")
+vek = input("zadej vek postavy")
+def fiktivni_postava(jmeno, popis, vek):
+    print(f"nova postava, jmenuje se {jmeno}, je to {popis} a je jí {vek} let.")
