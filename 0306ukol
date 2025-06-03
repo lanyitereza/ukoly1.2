@@ -1,0 +1,15 @@
+#ukol 1
+import random
+
+def hadani_cisla(tajne_cislo):
+    while True:
+        tip = int(input("zadejte svuj tip(cisla od 1 do 100): "))
+        if tip < tajne_cislo:
+            print("hledane cislo je vyssi")
+        elif tip > tajne_cislo:
+            print("hledane cislo je nizsi")
+        else:
+            print ("spravne")
+            break
+
+    tajne_cislo = random.randint (1,100)
