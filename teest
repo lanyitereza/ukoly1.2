@@ -1,0 +1,19 @@
+def pozdrav():
+    print("ahoj svete!!!!")
+pozdrav()
+
+def moje_jmeno():
+    print("tereza lanyi")
+moje_jmeno()
+
+def tri_radky():
+    print("stepanka je nadrzena")
+    print("jaaa mam hlad")
+    print("kupte mi nekdo mekac")
+tri_radky()
+
+def zvuk_zvonu():
+    print("ding")
+    print("ding")
+    print("ding")
+zvuk_zvonu()
